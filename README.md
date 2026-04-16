@@ -2,7 +2,7 @@
 
 Integrated M.Tech — International Institute of Information Technology Bangalore (IIITB)
 
-Machine Learning Research | Representation Learning | Efficient Deep Systems
+Interested in efficient encoder architectures, dense retrieval systems, and scalable representation learning for real-world production ML systems.
 
 ---
 
