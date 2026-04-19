@@ -72,10 +72,9 @@ https://github.com/svnsaisathvik/Cloud-Removal
 Repository:  
 https://github.com/tatakae-cloud/sfdlcs-uwb-reconstruction
 
-- Replicated SFDLCS architecture with manual LSTM gates and FCNN decision network.  
-- Achieved 59% lower NMSE vs OMP, 35% vs BCS, and 24% vs GPSR.  
-- Benchmarked 5 reconstruction algorithms across 10 SNR levels.
-
+- Replicated SFDLCS end-to-end with manual LSTM gates (Eq. 3–9) and FCNN decision network on 2,000 synthetic UWB signals; achieved 59% lower NMSE vs. OMP, 35% vs. BCS, and 24% vs. GPSR on 400 test signals.
+- Proposed Transformer-based search network (2-layer encoder, 4-head self-attention, d=128) replacing paper’s LSTM, reducing NMSE by 8% and raising correct index recovery rate to 93% (14/15 per signal).
+- Benchmarked 5 algorithms (SFDLCS, SFDLCS-Transformer, OMP, BCS, GPSR) across 10 SNR levels (-20 to +40 dB); SFDLCS maintained lowest NMSE across entire noise range, validating robustness claims.
 ---
 
 # Technical Skills
